@@ -235,6 +235,7 @@ footer {
     justify-content: center;
 }
 #gauche {
+    margin: auto auto;
     width: 500px;
 }
 #rejoindre {
