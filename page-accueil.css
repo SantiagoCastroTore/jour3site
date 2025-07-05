@@ -1,0 +1,107 @@
+.logo {
+
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+/*barre de tete avec logo*/
+header {
+    line-height: 23px;
+    font-weight: 500;
+    top: 0;
+    background-color: #fff;
+
+}
+
+
+h1,
+p {
+    color: #fff;
+    font-size: 1.7em;
+}
+
+.logo {
+    border-bottom: 1 solid #ccc;
+    margin-bottom: 0;
+    max-height: 54%;
+    display: inline-block;
+    width: 30%;
+}
+
+/*texte de présentation et lien cadre bleu*/
+.textelink {
+    height: auto;
+    background-color: #0062ff;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    min-height: 1px;
+    display: grid;
+
+}
+
+
+.pres {
+    display: flex;
+}
+
+/*photo visage*/
+.imagepres {
+    width: 75%;
+    display: flex;
+}
+
+
+.textelink {
+    width: 60%;
+}
+
+.entete {
+    width: 100%;
+}
+
+
+img {
+    max-width: 100%;
+
+    margin: 0 auto;
+}
+
+.textelink,
+.imagepres {
+    align-items: flex-end;
+}
+
+.insc{
+    font-size: 17px;
+    color: #fff;
+    background-color: #e74a34;
+    display: block;
+    padding: 10px ;
+    width: 69%;
+}
+.link-container{
+    display: flex;
+    flex-direction: row ;
+    
+    
+    
+}
+.utilelink{
+    font-size: 17px;
+    
+    
+}
+.icone{
+    width: 34px;
+    
+}
+.lientext{
+    color: #fff;
+    
+}
+#logobas{
+    
+}
+
