@@ -1,0 +1,103 @@
+h2 {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+/*barre de tete avec logo*/
+header {
+    line-height: 23px;
+    font-weight: 500;
+    top: 0;
+    background-color: white;
+
+}
+.baniere-haut
+{
+
+}
+main{
+    background-color: blueviolet;
+    margin: 0 10%;
+}
+
+.contain-flex {
+    padding: 12%;
+    gap: 10%;
+
+    align-items: center;
+}
+.contain-grid {
+}
+}
+form {
+    font-size: 1.2rem;
+    max-width: 500px;
+    max-éheight: 600px;
+    margin: 0 auto;
+}
+fieldset {
+    background: linear-gradient(rgb(0, 162, 255), lightblue, cyan);
+    border-radius: 50px;
+
+}
+.contain-flex {
+    display: flex;
+    margin: auto auto;
+}
+#message {
+    height: 200px;
+    width: 80%;
+}
+
+.container-contact { 
+    grid-area: 50% 40% 10%;
+    height: 80px;
+}
+
+
+.container-contact button {
+
+    font-family:fantasy;
+    font-size: 2rem;
+    padding: 1%;
+    margin: auto 2rem;
+    background-color: red;
+    border: black double 1px;
+    border-radius: 10px;
+
+}
+.question {
+    width: 60%;
+    background-color: grey;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.liens-reseaux {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;    
+}
+
+.container-principal {
+   display: grid;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+.photo {
+    padding: 10%;   
+    flex-grow: 1;
+
+}
+.accroche{
+    width: 40%;
+}
+.container-header-gauche {
+
+}
