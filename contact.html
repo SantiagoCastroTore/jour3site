@@ -40,7 +40,7 @@
                 </div>
                 <form>
                     <fieldset>
-                        <section class="contain-grid">
+                        <section  class="contain-grid">
                             <h2>Contacter la platerfome</h2>
                             <label name="contact">Civilité : </label><br>
 
@@ -50,7 +50,7 @@
                                 <option value="Mme">Mme.</option>
                                 <option value="Mrx">Mrx.</option>
                             </select>
-                            <input type="text" name="prenom" placeholder="Prénom" size="21">
+                            <input type="text" name="prenom" placeholder="Prénom" size="30">
                             <input type="text" name="nom" placeholder="Nom" size="30"><br>
                         </section>
                         <section class="contain-grid">
@@ -59,7 +59,7 @@
                                 <input type="tel" name="telephone" placeholder="00 12 34 56 78" size="30">
                         </section>
                         <div class="contain-box">     
-                            <section class="contain-flex">
+                            <section class="contain-grid">
                                         <select name="motif">
                                         <option value="">Sélectionnez un motif</option>
                                         <option value="aide">Aide à l'orientation</option>
@@ -77,7 +77,7 @@
                                 <label name="accord">J'ai lu et j'accepte les conditions d'utilisation</label>
                                 <input type="checkbox" name="accord">
                             </div>  
-                            <section class="contain-flex"> 
+                            <section class="contain-box"> 
                                 <button type="submit">Envoyer</button>
                             </section>
                     
@@ -111,7 +111,13 @@
                                 aria-hidden="true">Suivre sur Instagram</span></a>
                 </div>
             </div>
-        <footer>
+             <footer>
+                <div id="gauche" class="liste-liens">
+                    <img src="Fichier-1.svg" alt="La plateforme"><br><br>
+
+                    <a id="rejoindre" class="container-contact">Rejoingnez nos équipes</a>
+                    <a id="telecharger" class="container-contact">Télécharger la brochure</a>
+                </div>
                 <div class="liste-liens">
                     <h3>La Plateforme</h3><br>
                     <a href="page-accueil.html">Accueil</a><br>
@@ -141,16 +147,14 @@
 
                     <a >Cybersécurité</a><br>
                     </div>
-                 <div class="liste-liens droite">
+                 <div class="liste-liens">
                     <p>Informations</p>
 
                     <p>8 rue d’hozier, 13002 Marseille</p>
 
-                    <p>Tel : 04.84.89.43.69</p>
+                    <p>Tel : 04.84.89.43.69</p><br>
 
-                    <div class="container-contact">
-                        <a href="contact.html">Contact</a>
-                    </div>
+                    <a class="container-contact" id="contact" href="contact.html">Contact</a>
                 </div>
         </footer>
 </body>

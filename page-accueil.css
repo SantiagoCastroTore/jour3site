@@ -1,8 +1,4 @@
-.logo {
 
-    padding-left: 5%;
-    padding-top: 1%;
-}
 
 /*barre de tete avec logo*/
 header {
@@ -14,13 +10,16 @@ header {
 }
 
 
-h1,
-p {
+h1
+{
     color: #fff;
     font-size: 1.7em;
 }
 
 .logo {
+
+    padding-left: 5%;
+    padding-top: 1%;
     border-bottom: 1 solid #ccc;
     margin-bottom: 0;
     max-height: 54%;
@@ -105,3 +104,122 @@ img {
     
 }
 
+
+body{
+    background-color: white;
+    margin: 0 0;
+}
+
+.contain-flex {
+    padding: 0% 10%;
+    display: flex;
+    justify-content: center;
+}
+.contain-grid {
+    display: inline-block;
+}
+
+form {
+    font-size: 1rem;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto auto;
+}
+select {
+    width: 292px;    
+}
+fieldset {
+    background: linear-gradient(rgb(0, 162, 255), lightblue, cyan);
+    border-radius: 50px;
+}
+.contain-flex {
+    display: flex;
+    margin: auto auto;
+}
+#message {
+    height: 200px;
+    width: 80%;
+}
+.container-contact{
+    font-variant: small-caps; 
+    border: black solid 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+
+    
+}
+#contact {
+}
+.container-contact a {
+    text-decoration: none;
+    color: white;
+
+}
+.container-contact:hover {
+    background-color: rgba(0,0,0,0.5)
+}
+
+.question {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
+
+.liens-reseaux {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;    
+}
+.contain-box {
+
+   display: grid;
+   justify-content: center;
+}
+.container-principal {
+   display: flex;
+   height: 100%;
+   flex-direction: column;
+   text-align: center;
+   padding: 2% 5%;
+   background-color: #0062ff;
+}
+.photo {
+    padding: 10%;   
+    flex-grow: 1;
+
+}
+.accroche{
+    width: 40%;
+}
+footer {
+    background-color: rgb(31,31,31);
+    color: white;
+    display: flex;
+    padding: 7%;
+}
+.liste-liens {
+    margin: 2rem auto;
+    flex-direction: column;
+    justify-content: center;
+}
+#gauche {
+    width: 500px;
+}
+#rejoindre {
+    color: black;
+    background-color: white;
+
+}
+#telecharger {
+    background-color: red;
+}
+a {
+    text-decoration: none;
+}

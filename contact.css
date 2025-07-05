@@ -108,28 +108,29 @@ img {
 body{
     background-color: white;
     margin: 0 0;
-    width: 100%;
 }
 
 .contain-flex {
-    padding: 12%;
-    gap: 10%;
-
-    align-items: center;
+    padding: 0% 10%;
+    display: flex;
+    justify-content: center;
 }
 .contain-grid {
+    display: inline-block;
 }
 
 form {
     font-size: 1rem;
     max-width: 500px;
     max-height: 500px;
-    margin: 0 auto;
+    margin: auto auto;
+}
+select {
+    width: 292px;    
 }
 fieldset {
     background: linear-gradient(rgb(0, 162, 255), lightblue, cyan);
     border-radius: 50px;
-
 }
 .contain-flex {
     display: flex;
@@ -139,27 +140,31 @@ fieldset {
     height: 200px;
     width: 80%;
 }
-
-.container-contact { 
-    height: 60px;
-
+.container-contact{
+    font-variant: small-caps; 
+    border: black solid 4px;
+    border-radius: 10px;
     display: flex;
-    padding: 5%;
-    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
 
+    
+}
+#contact {
 }
 .container-contact a {
     text-decoration: none;
-
-
-    font-variant: small-caps;
-    font-size: 1.5rem;
-    padding: 10px;
-    background-color: red;
-    border: black double 1px;
-    border-radius: 10px;
+    color: white;
 
 }
+.container-contact:hover {
+    background-color: rgba(0,0,0,0.5)
+}
+
 .question {
     width: 100%;
     text-align: center;
@@ -178,10 +183,11 @@ fieldset {
    justify-content: center;
 }
 .container-principal {
-   display: grid;
-   justify-content: center;
+   display: flex;
+   height: 100%;
    flex-direction: column;
    text-align: center;
+   padding: 2% 5%;
    background-color: #0062ff;
 }
 .photo {
@@ -192,9 +198,6 @@ fieldset {
 .accroche{
     width: 40%;
 }
-.container-header-gauche {
-
-}
 footer {
     background-color: rgb(31,31,31);
     color: white;
@@ -202,6 +205,21 @@ footer {
     padding: 7%;
 }
 .liste-liens {
-    margin: auto auto;
+    margin: 2rem auto;
     flex-direction: column;
+    justify-content: center;
+}
+#gauche {
+    width: 500px;
+}
+#rejoindre {
+    color: black;
+    background-color: white;
+
+}
+#telecharger {
+    background-color: red;
+}
+a {
+    text-decoration: none;
 }
