@@ -17,7 +17,7 @@
     text-decoration: none;
     padding: 10px 15px;
 }
-.dropdown .content{
+.dropdown .content{         /*   */ 
     display: none;
     position: absolute;
     background-color: hsl(0, 0%, 95%);
